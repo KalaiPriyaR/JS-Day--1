@@ -1,0 +1,31 @@
+1 Difference between HTTP1.1 vs HTTP2
+HTTP1.1
+=======
+a. Evolved with persistent connection, pipeling, cache control on 1997
+b. Provides faster delivery of webpage, but increased risk of network congestion
+c. Its supports to reuse connection. Every single TCP connection can have multiple request & Response
+d. It has capability to expand on cache contole
+
+HTTP2
+=====
+a. Evolved with google's SPDY allows multiplexing and server push on 2015
+b. Page loading time is reduced to greater extent with multiplexing and server push, with less sensitive to network delays
+c. TCP connection with help by use of multiplexing gives fastest response
+d. caching is not expandable, but with server push feature helps to cancel data if already present
+
+
+2 Objects and its internal representation in Javascript
+
+Object is Non Primitive data type of JavaScript. Objects can hold many values in form of Key value pair. The values can be accessed in object using key
+//Object creation/Declaration
+Var objName = 
+{
+key1 = Value1;
+key2 = value2;
+}
+
+//object creation using new keyword
+Var objectname = new object();
+
+//Object literals
+Var objName = {Name: 'XXX', model:'XXX', price:'XXX'};
